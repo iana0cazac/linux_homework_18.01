@@ -1,0 +1,30 @@
+   0 mkdir /home/user
+   1 touch /home/user/1.txt
+   2 echo "Start" > /home/user/1.txt
+   3 date >> /home/user/1.txt
+   4 mkdir /opt/task
+   5 cp /home/user/1.txt /opt/task/start.txt
+   6 ls -a /
+   7 ls -a / | tail -4
+   8 ls -a | tail -4 >> /opt/task/start.txt
+   9 mkdir -p /tmp/testnew
+  10 cp -r /opt/task /tmp/testnew
+  11 cd
+  12 ls -l
+  13 pwd
+  14 tree /root
+  15 whoami
+  16 cat /home/readme.txt
+  17 cat readme.txt
+  18 cat /readme.txt >> tmp/testnew/start.txt
+  19 tree /tmp
+  20 cat /readme.txt >> tmp/testnew/task/start.txt
+  21 cat /readme.txt >> /tmp/testnew/task/start.txt
+  22 cat /root/readme.txt >> /tmp/testnew/task/start.txt
+  23 tree /opt
+  24 rm /opt/task
+  25 rm -r /opt/task
+  26 ls -l /opt
+  27 cat /tmp/testnew/task/start.txt
+  28 history
+  29 history > history_18.01.txt
